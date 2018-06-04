@@ -12,7 +12,7 @@ import timber.log.Timber
 
 class GetDataActivity : AppCompatActivity(), Callback<DataModel> {
 
-    private val BASE_URL = "https://www.getpostman.com/collections/a2c503b52fd19c63f8d1/getclientprefs/"
+    private val BASE_URL = "https://e973a4ff-7c9f-42e1-9541-ceec777f0ace.mock.pstmn.io"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
