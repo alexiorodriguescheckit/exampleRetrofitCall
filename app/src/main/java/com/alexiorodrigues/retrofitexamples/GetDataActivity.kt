@@ -30,7 +30,7 @@ class GetDataActivity : AppCompatActivity(), Callback<DataModel> {
 
         val retrofit = Retrofit.Builder()
                 .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create(gson))
                 .build()
 
         val dataAPI = retrofit.create<DataAPI>(DataAPI::class.java)

@@ -5,7 +5,7 @@ import retrofit2.http.*
 
 interface DataAPI {
 
-    @GET("")
+    @GET("/")
     fun getSettings(): Call<DataModel>
 
     @GET("wrong_temp")
